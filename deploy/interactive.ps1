@@ -18,4 +18,4 @@ $Params = @{
 
 Test-AzResourceGroupDeployment  @Params -administratorLoginPassword $AdminPassword
 
-New-AzResourceGroupDeployment  @Params -administratorLoginPassword $AdminPassword -administratorLogin 'gracehopper' -Mode 'Complete'
+New-AzResourceGroupDeployment  @Params -administratorLoginPassword $AdminPassword
