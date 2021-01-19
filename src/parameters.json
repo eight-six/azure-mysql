@@ -1,0 +1,56 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "administratorLogin": {
+            "value": null
+        },
+        "administratorLoginPassword": {
+            "value": null
+        },
+        "serverName": {
+            "value": null
+        },
+        "location": {
+            "value": "uksouth"
+        },
+        "skuName": {
+            "value": "B_Gen5_2"
+        },
+        "skuTier": {
+            "value": "Basic"
+        },
+        "skuCapacity": {
+            "value": 2
+        },
+        "skuFamily": {
+            "value": "Gen5"
+        },
+        "skuSizeMB": {
+            "value": 51200
+        },
+        "backupRetentionDays": {
+            "value": 7
+        },
+        "geoRedundantBackup": {
+            "value": "Disabled"
+        },
+        "storageAutoGrow": {
+            "value": "Enabled"
+        },
+        "tags": {
+            "value": {}
+        },
+        "infrastructureEncryption": {
+            "value": "Disabled"
+        },
+        "version": {
+            "value": "5.7"
+        },
+        "firewallRules": {
+            "value": [
+               
+            ]
+        }
+    }
+}
