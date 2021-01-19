@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "administratorLogin": {
-            "value": null
+            "value": "gracehopper"
         },
         "administratorLoginPassword": {
             "value": null
         },
         "serverName": {
-            "value": null
+            "value": "test-client-mysql-server4"
         },
         "location": {
             "value": "uksouth"

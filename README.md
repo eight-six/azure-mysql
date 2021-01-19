@@ -2,8 +2,8 @@
 
 ## Prerequisites
 
-- [PowerShell 7](https://github.com/PowerShell/PowerShell/releases) (tested with v7.1.0)
-- [PowerShell Az module](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azps-5.3.0) - (tested with v.4.2.0)
+- [PowerShell 7](https://github.com/PowerShell/PowerShell/releases) - (tested with v7.1.0 (Nov 2020), v7.1.1 (Jan 2021))
+- [PowerShell Az module](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az) - (tested with v4.2.0 (July 2020), v5.4.0 (Jan 2021))
 
 ## Getting Started
 
