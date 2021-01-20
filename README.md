@@ -58,11 +58,11 @@ A non-null value must be provided - see [ServerPropertiesForDefaultCreate object
 
 ```json
   "parameters": {
-       ...
+       
         "administratorLogin": {
             "value": null
         },
-        ...
+       
   }
 ```
 
@@ -72,11 +72,11 @@ You can supply non-null value here, but it is *strongly* recommended that you do
 
 ```json
   "parameters": {
-       ...
+      
         "administratorLoginPassword": {
             "value": null
         },
-      ...
+      
   }
 ```
 
@@ -86,11 +86,11 @@ A non-null value must be provided  - see [Microsoft.DBforMySQL/servers object](h
 
 ```json
   "parameters": {
-        ...
+
         "serverName": {
             "value": "my-mysql-server"
         },
-        ...
+
   }
 ```
 
@@ -100,11 +100,11 @@ Default provided in `parameters` file - see [Microsoft.DBforMySQL/servers object
 
 ```json
   "parameters": {
-       ...
+
         "location": {
             "value": "uksouth"
         },
-        ...
+
   }
 ```
 
@@ -114,11 +114,11 @@ Default provided in `parameters` file - see [SKU object](https://docs.microsoft.
 
 ```json
   "parameters": {
-       ...
+
         "skuName": {
             "value": "B_Gen5_2"
         },
-        ...
+
   }
 ```
 
@@ -128,11 +128,11 @@ Default provided in `parameters` file - see [SKU object](https://docs.microsoft.
 
 ```json
   "parameters": {
-       ...
+
         "skuTier": {
             "value": "Basic"
         },
-        ...
+
   }
 ```
 
@@ -142,11 +142,11 @@ Default provided in `parameters` file - see [SKU object](https://docs.microsoft.
 
 ```json
   "parameters": {
-       ...
+
         "skuCapacity": {
             "value": 2
                 },
-        ...
+
   }
 ```
 
@@ -156,11 +156,11 @@ Default provided in `parameters` file - see [SKU object](https://docs.microsoft.
 
 ```json
   "parameters": {
-       ...
+
         "skuFamily": {
             "value": "Gen5"
                 },
-        ...
+
   }
 ```
 
@@ -170,11 +170,11 @@ Default provided in `parameters` file - see [SKU object](https://docs.microsoft.
 
 ```json
   "parameters": {
-       ...
+
         "skuSizeMB": {
             "value": 51200
                 },
-        ...
+
   }
 ```
 
@@ -184,11 +184,11 @@ Default provided in `parameters` file - see [StorageProfile object](https://docs
 
 ```json
   "parameters": {
-       ...
+
         "backupRetentionDays": {
             "value": 7
                 },
-        ...
+
   }
 ```
 
@@ -198,11 +198,11 @@ Default provided in `parameters` file - see [StorageProfile object](https://docs
 
 ```json
   "parameters": {
-       ...
+
         "geoRedundantBackup": {
             "value": "Disabled"
                 },
-        ...
+
   }
 ```
 
@@ -212,11 +212,11 @@ Default provided in `parameters` file - see [StorageProfile object](https://docs
 
 ```json
   "parameters": {
-       ...
+
         "storageAutoGrow": {
             "value": "Enabled"
         },
-        ...
+
   }
 ```
 
@@ -226,11 +226,11 @@ Default provided in `parameters` file - see [Microsoft.DBforMySQL/servers object
 
 ```json
   "parameters": {
-       ...
+
         "tags": {
             "value": {}
         },
-        ...
+       
   }
 ```
 
@@ -240,11 +240,11 @@ Default provided in `parameters` file - see [ServerPropertiesForCreate object](h
 
 ```json
   "parameters": {
-       ...
+ 
         "infrastructureEncryption": {
             "value": "Disabled"
                 },
-        ...
+
   }
 ```
 
@@ -254,11 +254,11 @@ Default provided in `parameters` file - see [ServerPropertiesForCreate object](h
 
 ```json
   "parameters": {
-        ...
+
         "version": {
             "value": "5.7"
                 },
-        ...
+
   }
 ```
 
@@ -282,7 +282,7 @@ https://docs.microsoft.com/en-us/azure/templates/microsoft.dbformysql/2017-12-01
 
 ```json
   "parameters": {
-       ...
+
         "firewallRules": {
             "value": [               
                 {
@@ -292,6 +292,7 @@ https://docs.microsoft.com/en-us/azure/templates/microsoft.dbformysql/2017-12-01
                 }
             ]
         }
+        
     }
 
 ```
@@ -306,7 +307,7 @@ Note: this is *not* recommended for most scenarios and should only be used where
 
 ```json
   "parameters": {
-       ...
+
         "firewallRules": {
             "value": [               
                 {
